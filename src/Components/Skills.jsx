@@ -13,8 +13,7 @@ function Skills() {
     <div id="expertise" className="w-full">
       <div className="max-w-8xl mx-auto relative h-full py-20 flex-col px-4 sm:px-6 md:px-8 lg:px-0">
         <h3 className="text-center font-bold text-[32px] lg:w-2/3 lg:mx-auto text-white tracking-wider font-Calistogasans">
-          In the past few years I have worked on lots of web and Graphic related
-          projects
+          In the past few years I have worked on lots of web and Graphic related projects
         </h3>
         <h4 className="text-center text-[24px] text-white/90 font-Intersans">
           Below are the list of few projects that will showcase my strength.
