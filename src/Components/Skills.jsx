@@ -11,7 +11,7 @@ import MarketingLandingPages from "./MarketingLandingPages";
 function Skills() {
   return (
     <div id="expertise" className="w-full">
-      <div className="container relative h-full py-20 flex-col px-4 sm:px-6 md:px-8 lg:px-0">
+      <div className="max-w-8xl mx-auto relative h-full py-20 flex-col px-4 sm:px-6 md:px-8 lg:px-0">
         <h3 className="text-center font-bold text-[32px] lg:w-2/3 lg:mx-auto text-white tracking-wider font-Calistogasans">
           In the past few years I have worked on lots of web and Graphic related
           projects
@@ -30,6 +30,20 @@ function Skills() {
                 "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white text-white/90 cursor-pointer"
               }
             >
+              Figma to React/Tailwind
+            </Tab>
+            <Tab
+              className={
+                "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white text-white/90 cursor-pointer"
+              }
+            >
+              Figma to Bootstrap/Tailwind
+            </Tab>
+             <Tab
+              className={
+                "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white text-white/90 cursor-pointer"
+              }
+            >
               Wordpress
             </Tab>
             <Tab
@@ -39,20 +53,7 @@ function Skills() {
             >
               Webflow
             </Tab>
-            <Tab
-              className={
-                "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white text-white/90 cursor-pointer"
-              }
-            >
-              Figma to Bootstrap/Tailwind
-            </Tab>
-            <Tab
-              className={
-                "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white text-white/90 cursor-pointer"
-              }
-            >
-              Figma to React/Tailwind
-            </Tab>
+            
             <Tab
               className={
                 "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white text-white/90 cursor-pointer"
@@ -63,17 +64,17 @@ function Skills() {
            
           </TabList>
           <div className="py-5 mt-5">
+                <TabPanel>
+              <FigmaToReact />
+            </TabPanel>
+             <TabPanel>
+              <HtmlProjects />
+            </TabPanel>
             <TabPanel>
               <WordpressProjects />
             </TabPanel>
             <TabPanel>
               <WebflowProjects />
-            </TabPanel>
-            <TabPanel>
-              <HtmlProjects />
-            </TabPanel>
-            <TabPanel>
-              <FigmaToReact />
             </TabPanel>
             <TabPanel>
               <MarketingLandingPages />
